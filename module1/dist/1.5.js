@@ -1,13 +1,13 @@
 "use strict";
 // How to write object in typescript
 //implicit type object(type defined kora nai)
-var Implicituser = {
+const Implicituser = {
     firstName: "Rahyan",
     MiddleName: "Shamsi",
     LastName: "Akil"
 };
 //explecit type object (type defined kora thake)
-var Explicituser = {
+const Explicituser = {
     company: "RSA Corporation Bangladesh",
     firstName: "Rahyan",
     middleName: "Shamsi",

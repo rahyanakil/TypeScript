@@ -1,22 +1,22 @@
 "use strict";
 //Basic Typescript(define explecitely)
 //string
-var firstName = 'mezba';
+let firstName = 'mezba';
 //Numberr
-var roll = 123;
+let roll = 123;
 //boolean 
-var isAdmin = true;
+let isAdmin = true;
 //undefined 
-var x = undefined;
+let x = undefined;
 //null 
-var y = null;
+let y = null;
 //any type (not recommended to use in typescript)
 //define implecitely anytype data which deactivate the typescript functionality
-var d;
-var friends = ['rachel', 'monica'];
-var eligibleRollList = [1, 2, 3];
+let d;
+let friends = ['rachel', 'monica'];
+let eligibleRollList = [1, 2, 3];
 eligibleRollList.push(3);
 //tuple -->array -->order -->type of values
-var coordinates = [1, 5];
-var ageName = [50, 'Mr.X', true];
+let coordinates = [1, 5];
+let ageName = [50, 'Mr.X', true];
 ageName[0] = 67;
