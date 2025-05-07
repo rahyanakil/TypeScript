@@ -1,9 +1,9 @@
 {
   //Union and Intersection Types
   //Union Types
-  type FrontendDeveloper = "fakibaj developer" | "junior developer";
-  type FullStackDeveloper = "Frontend developer" | "Expert developer";
-  type Developer = FrontendDeveloper | FullStackDeveloper;
+  type FrontEndDeveloper = "fakibaj developer" | "junior developer";
+  type FullstackDeveloper = "Frontend developer" | "Expert developer";
+  type Developer = FrontEndDeveloper | FullstackDeveloper;
   const newDeveloper: Developer = "fakibaj developer";
 
   type User = {
@@ -26,7 +26,7 @@
 
   type BackendDeveloper = {
     skills: string[];
-    designation1: "Backend Developer";
+    designation2: "Backend Developer";
   };
   type FullStackDeveloper = FrontendDeveloper & BackendDeveloper;
   const FullStackDeveloper: FullStackDeveloper = {

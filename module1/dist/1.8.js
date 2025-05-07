@@ -11,4 +11,3 @@ const { contactNo, name: { middleName }, } = user;
 //array destructuring
 const myFriends = ["Nibir", "Jahangir", "Rahyan", "Shamsi", "Akil"];
 const [friend1, friend2, ...rest] = myFriends;
-console.log(friend1, friend2, rest);
