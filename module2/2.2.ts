@@ -33,7 +33,7 @@ type Roll1 =number[]
 interface Roll2{
     [index:number]:number
 }
-const rollNumber1 :Roll =[1,2,3]
+const rollNumber1 :Roll1 =[1,2,3]
 
 //for function declaring type (cause it is an object)
 type Add1 = (num1:number,num2:number)=>number
