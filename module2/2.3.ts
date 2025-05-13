@@ -1,5 +1,5 @@
 {//
-    // Byusing generic type we can use data dynamically reuse
+    // Byusing  generic type we can use data dynamically reuse
     //Array generic type
     type GenericArray<T> =Array<T>
 //const rollNumbers:number[]=[3,6,8];
