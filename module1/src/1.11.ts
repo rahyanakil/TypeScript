@@ -16,28 +16,28 @@
   //null /undefined check -->decision making
   const isEligible1 = undefined;
   const result1 = isEligible1 ?? "Guest";
-  const result2 = isEligible1 ?isEligible: "Guest";
-  console.log("result:",{result1},{result2}); //Guest
+  const result2 = isEligible1 ? isEligible : "Guest";
+  console.log("result:", { result1 }, { result2 }); //Guest
   //optional chaining
-  type User={
-    name:string;
-    address:{
-      city:string;
-      road:string;
-      presentaddress:string;
-      parmanentAddress?:string;
+  type User = {
+    name: string;
+    address: {
+      city: string;
+      road: string;
+      presentaddress: string;
+      permanentAddress?: string;
     };
-    
-  }
-  const user:User={
-    name:"rahyan",
-    address:{
-      city:"Noakhali",
-      road:"07",
-      presentaddress:"Dhaka"
-    }
-  }
-  const parmanentAddress =user?.address?.parmanentAddress??"No Parmanent Address";
-  console.log({parmanentAddress})
+  };
+  const user: User = {
+    name: "rahyan",
+    address: {
+      city: "Noakhali",
+      road: "07",
+      presentaddress: "Dhaka",
+    },
+  };
+  const permanentAddress =
+    user?.address?.permanentAddress ?? "No Parmanent Address";
+  console.log({ permanentAddress });
   //end
 }
